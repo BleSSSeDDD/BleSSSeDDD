@@ -11,15 +11,6 @@
 
 ---
 
-### Чем занимаюсь
-
-- 🐹 Основной стек — **Go**, вокруг него Docker, Postgres, Redis, Prometheus
-- 📈 Сейчас копаю **Ansible**, дальше по плану Kubernetes и Terraform
-- 🧩 Решаю алгоритмы на LeetCode — не ради галочки, а чтобы думать быстрее
-- 🎯 Открыт к предложениям
-
----
-
 ### Стек
 
 <p>
@@ -57,13 +48,7 @@
 Postgres + Redis, метрики Prometheus по модели RED, дашборд в Grafana, Traefik как точка входа,
 e2e-тесты в CI, деплой через Ansible. Один конвейер собран на трёх CI-платформах.
 
-**sniffer_distributor** — разбор pcap на C++17 без libpcap.
-Свой парсер Ethernet/VLAN/IPv4/TCP/UDP, машина состояний TCP, детект FTP-сессий
-через PASV/PORT/EPSV/EPRT, распределение пакетов по четырём потокам-обработчикам.
-
 ---
-
-### Змейка ест мои коммиты
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/BleSSSeDDD/BleSSSeDDD/output/github-snake-dark.svg" />
@@ -74,15 +59,6 @@ e2e-тесты в CI, деплой через Ansible. Один конвейер
 ---
 
 ### Статистика
-
-<p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=BleSSSeDDD&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&theme=tokyonight" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=BleSSSeDDD&layout=compact&langs_count=8&hide_border=true&theme=tokyonight" />
-</p>
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=BleSSSeDDD&hide_border=true&theme=tokyonight" />
-</p>
 
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=BleSSSeDDD&theme=tokyo-night&hide_border=true&area=true" />
