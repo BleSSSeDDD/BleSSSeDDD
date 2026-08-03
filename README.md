@@ -5,9 +5,7 @@
   Пишу сервисы на Go и учусь делать так, чтобы они не падали в проде
 </p>
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=BleSSSeDDD&style=flat&color=00ADD8&label=Профиль+посмотрели" alt="просмотры профиля" />
-</p>
+ <img src="https://komarev.com/ghpvc/?username=BleSSSeDDD&style=flat&color=00ADD8&label=++++++Профиль+посмотрели++++++" alt="просмотры профиля" />
 
 ---
 
