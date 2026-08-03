@@ -1,0 +1,114 @@
+<h1 align="center">Привет, я Иван 👋</h1>
+
+<p align="center">
+  <b>Go + инфраструктура</b> · Санкт-Петербург<br>
+  Пишу сервисы на Go и учусь делать так, чтобы они не падали в проде
+</p>
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=BleSSSeDDD&style=flat&color=00ADD8&label=Профиль+посмотрели" alt="просмотры профиля" />
+</p>
+
+---
+
+### Обо мне
+
+- 🎓 Студент ЛЭТИ, компьютерная безопасность
+- 🛠 Работаю системным администратором, параллельно ухожу в бэкенд и инфраструктуру
+- 🐹 Основной стек — **Go**, вокруг него Docker, Postgres, Redis, Prometheus
+- 📈 Сейчас копаю **Ansible**, дальше по плану Kubernetes и Terraform
+- 🧩 Решаю алгоритмы на LeetCode — не ради галочки, а чтобы думать быстрее
+- 🎯 Ищу работу, где можно расти годами, а не менять картриджи
+
+---
+
+### Стек
+
+<p>
+  <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" />
+  <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" />
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
+  <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" />
+</p>
+
+<p>
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
+  <img src="https://img.shields.io/badge/Ansible-EE0000?style=for-the-badge&logo=ansible&logoColor=white" />
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
+  <img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white" />
+</p>
+
+<p>
+  <img src="https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white" />
+  <img src="https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white" />
+  <img src="https://img.shields.io/badge/Traefik-24A1C1?style=for-the-badge&logo=traefikproxy&logoColor=white" />
+</p>
+
+<p>
+  <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" />
+  <img src="https://img.shields.io/badge/GitLab%20CI-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white" />
+  <img src="https://img.shields.io/badge/CircleCI-343434?style=for-the-badge&logo=circleci&logoColor=white" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
+</p>
+
+---
+
+### Что я делал
+
+**[url-shortener](https://github.com/BleSSSeDDD/url-shortener)** — сервис коротких ссылок на Go.
+Postgres + Redis, метрики Prometheus по модели RED, дашборд в Grafana, Traefik как точка входа,
+e2e-тесты в CI, деплой через Ansible. Один конвейер собран на трёх CI-платформах.
+
+**sniffer_distributor** — разбор pcap на C++17 без libpcap.
+Свой парсер Ethernet/VLAN/IPv4/TCP/UDP, машина состояний TCP, детект FTP-сессий
+через PASV/PORT/EPSV/EPRT, распределение пакетов по четырём потокам-обработчикам.
+
+---
+
+### Змейка ест мои коммиты
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/BleSSSeDDD/BleSSSeDDD/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/BleSSSeDDD/BleSSSeDDD/output/github-snake.svg" />
+  <img alt="снейк по контрибьюшнам" src="https://raw.githubusercontent.com/BleSSSeDDD/BleSSSeDDD/output/github-snake.svg" />
+</picture>
+
+---
+
+### Статистика
+
+<p align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=BleSSSeDDD&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&theme=tokyonight" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=BleSSSeDDD&layout=compact&langs_count=8&hide_border=true&theme=tokyonight" />
+</p>
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=BleSSSeDDD&hide_border=true&theme=tokyonight" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=BleSSSeDDD&theme=tokyo-night&hide_border=true&area=true" />
+</p>
+
+---
+
+### LeetCode
+
+<p align="center">
+  <a href="https://leetcode.com/u/BleSSSeDDD/">
+    <img src="https://leetcard.jacoblin.cool/BleSSSeDDD?theme=dark&font=Baloo%202&ext=heatmap" />
+  </a>
+</p>
+
+---
+
+### Связь
+
+<p>
+  <a href="mailto:iv.kobzov@gmail.com">
+    <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
+  </a>
+  <a href="https://github.com/BleSSSeDDD/url-shortener">
+    <img src="https://img.shields.io/badge/Мои%20проекты-181717?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+</p>

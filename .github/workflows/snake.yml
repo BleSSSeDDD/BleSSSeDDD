@@ -1,0 +1,42 @@
+# Рисует змейку, которая съедает квадратики контрибьюшнов.
+#
+# Как это устроено: экшен ходит на публичный профиль, забирает сетку активности,
+# генерирует из неё SVG-анимацию и кладёт готовые файлы в ОТДЕЛЬНУЮ ветку output.
+# README тянет картинку из этой ветки по raw-ссылке.
+# В main никакие картинки не коммитятся — ветка output живёт сама по себе.
+
+name: Generate Snake
+
+on:
+  schedule:
+    # каждые 12 часов, чтобы змейка не отставала от новых коммитов
+    - cron: "0 */12 * * *"
+  workflow_dispatch:      # кнопка "запустить вручную" во вкладке Actions
+  push:
+    branches:
+      - main
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write     # без этого не сможет запушить ветку output
+
+    steps:
+      - name: Сгенерировать SVG
+        uses: Platane/snk@v3
+        id: snake-gif
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-snake.svg
+            dist/github-snake-dark.svg?palette=github-dark
+
+      - name: Запушить в ветку output
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
