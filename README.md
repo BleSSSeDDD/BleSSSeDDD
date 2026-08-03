@@ -1,8 +1,8 @@
-<h1 align="center">Привет 👋</h1>
+<h1 align="center">Hi👋</h1>
 
 <p align="center">
-  <b>Go + инфраструктура</b><br>
-  Пишу сервисы на Go и учусь делать так, чтобы они не падали в проде
+  <b>Go + infrastructure</b><br>
+  I’m creating Go services and try to make sure they don’t crash in production.
 </p>
 
 <p align="center">
@@ -11,7 +11,7 @@
 
 ---
 
-### Стек
+### Stack
 
 <p>
   <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" />
@@ -50,7 +50,7 @@
 
 ---
 
-### Статистика
+### Statistics
 
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=BleSSSeDDD&theme=tokyo-night&hide_border=true&area=true" />
