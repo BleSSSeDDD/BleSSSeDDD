@@ -42,14 +42,6 @@
 
 ---
 
-### Проекты
-
-**[url-shortener](https://github.com/BleSSSeDDD/url-shortener)** — сервис коротких ссылок на Go.
-Postgres + Redis, метрики Prometheus по модели RED, дашборд в Grafana, Traefik как точка входа,
-e2e-тесты в CI, деплой через Ansible. Один конвейер собран на трёх CI-платформах.
-
----
-
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/BleSSSeDDD/BleSSSeDDD/output/github-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/BleSSSeDDD/BleSSSeDDD/output/github-snake.svg" />
