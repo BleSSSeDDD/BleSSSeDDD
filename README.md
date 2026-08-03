@@ -7,7 +7,6 @@
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=BleSSSeDDD&style=flat&color=00ADD8&label=Profile+views" alt="просмотры профиля" />
-  <img src="https://komarev.com/ghpvc/?username=BleSSSeDDD&style=flat&color=00ADD8&label=++++++Профиль+посмотрели+++++++++++++" alt="просмотры профиля" />
 </p>
 
 ---
