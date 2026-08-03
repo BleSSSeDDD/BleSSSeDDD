@@ -2,7 +2,7 @@
 
 <p align="center">
   <b>Go + infrastructure</b><br>
-  I’m creating Go services and try to make sure they don’t crash in production.
+  I’m creating Go services and trying to make sure they don’t crash in production.
 </p>
 
 <p align="center">
