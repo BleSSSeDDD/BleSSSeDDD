@@ -1,7 +1,7 @@
-<h1 align="center">Привет, я Иван 👋</h1>
+<h1 align="center">Привет 👋</h1>
 
 <p align="center">
-  <b>Go + инфраструктура</b> · Санкт-Петербург<br>
+  <b>Go + инфраструктура</b><br>
   Пишу сервисы на Go и учусь делать так, чтобы они не падали в проде
 </p>
 
@@ -11,14 +11,12 @@
 
 ---
 
-### Обо мне
+### Чем занимаюсь
 
-- 🎓 Студент ЛЭТИ, компьютерная безопасность
-- 🛠 Работаю системным администратором, параллельно ухожу в бэкенд и инфраструктуру
 - 🐹 Основной стек — **Go**, вокруг него Docker, Postgres, Redis, Prometheus
 - 📈 Сейчас копаю **Ansible**, дальше по плану Kubernetes и Terraform
 - 🧩 Решаю алгоритмы на LeetCode — не ради галочки, а чтобы думать быстрее
-- 🎯 Ищу работу, где можно расти годами, а не менять картриджи
+- 🎯 Открыт к предложениям
 
 ---
 
@@ -53,7 +51,7 @@
 
 ---
 
-### Что я делал
+### Проекты
 
 **[url-shortener](https://github.com/BleSSSeDDD/url-shortener)** — сервис коротких ссылок на Go.
 Postgres + Redis, метрики Prometheus по модели RED, дашборд в Grafana, Traefik как точка входа,
@@ -97,18 +95,5 @@ e2e-тесты в CI, деплой через Ansible. Один конвейер
 <p align="center">
   <a href="https://leetcode.com/u/BleSSSeDDD/">
     <img src="https://leetcard.jacoblin.cool/BleSSSeDDD?theme=dark&font=Baloo%202&ext=heatmap" />
-  </a>
-</p>
-
----
-
-### Связь
-
-<p>
-  <a href="mailto:iv.kobzov@gmail.com">
-    <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
-  </a>
-  <a href="https://github.com/BleSSSeDDD/url-shortener">
-    <img src="https://img.shields.io/badge/Мои%20проекты-181717?style=for-the-badge&logo=github&logoColor=white" />
   </a>
 </p>
